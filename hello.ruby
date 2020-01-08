@@ -8,3 +8,9 @@ end
 
 myFirstRubyObject = MyFirstRubyClass.new
 puts myFirstRubyObject.myFirstInstanceMethod(5)
+puts "Hello World"
+STDOUT.write("Hi\n")
+$stdout.write("ps")
+puts "ps"
+# puts ARGF.read
+puts `ls`.instance_of? String
