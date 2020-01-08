@@ -11,6 +11,5 @@ puts myFirstRubyObject.myFirstInstanceMethod(5)
 puts "Hello World"
 STDOUT.write("Hi\n")
 $stdout.write("ps")
-puts "ps"
-# puts ARGF.read
+puts "\x1b[1;34mps\x1b[0m"
 puts `ls`.instance_of? String
